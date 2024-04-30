@@ -1,0 +1,43 @@
+style.css
+body{
+    font-family: arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: cadetblue;
+}
+            .container {
+                display: flex;
+            }
+            .column1 {
+                padding: 30px;
+                flex: 30%;
+                background-color: #008080;
+                height: 100vh;
+                color: #ffffff;
+            }  
+
+            .column2{
+                padding: 30px;
+                flex: 70%; 
+                background-color:#c0c0c0;
+                height: 100vh;
+                color: #black;               
+            }
+            #foto{
+                width: 200px;
+                height:200px;
+                border-top-right-radius: 20%;
+            
+            } 
+                          
+            .column3{
+                padding: 30px;
+                flex: 70%;
+                height: 100vh; 
+            }   
+            #foto2{
+                width: 200px;
+                height:200px;
+                border-top-left-radius: 20%;
+            }
+           
